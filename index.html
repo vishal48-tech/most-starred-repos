@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Use this website to view most starred Github repositories between a date range">
+    <title>Most Starred Github Repos</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="details">
+        <h1>Enter any two dates to get most starred Github repositories between that date range</h1><br>
+        <div class="dates">
+            <input type="date" name="start-date" id="start-date">
+            <h2>TO</h2>
+            <input type="date" name="end-date" id="end-date">
+            <input type="button" value="Search" id="btn-search" onclick="response()">
+        </div>
+    </div>
+
+    <div id="show"></div>
+</body>
+
+</html>
